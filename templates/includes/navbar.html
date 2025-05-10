@@ -1,0 +1,53 @@
+{% load static %}
+<!-- Navbar START -->
+<header>
+    <nav id="navigation4" class="container navigation navigation-landscape">
+        <div class="nav-header">
+            <a class="nav-brand" href="{% url 'index' %}">
+                <img src="{% static 'images/logos/logo.png' %}" class="main-logo" alt="logo" id="main_logo">
+            </a>
+            <div class="nav-toggle"></div>
+        </div>
+        <!--<button type="button" class="btn btn-outline-danger ml-5 btn-sm d-md-none d-lg-none d-xl-none" data-toggle="modal" style="margin-top:10px!important" data-target="#iptvPreReg">IPTV Pre-registration</button>-->
+        <div class="nav-menus-wrapper">
+            <ul class="nav-menu align-to-right">
+                <!--<li class="pl-4 py-2 d-none d-lg-none d-xl-none">
+                    <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#iptvPreReg">IPTV Pre-registration</button>
+                </li>-->
+                <li><a href="{% url 'home-internet' %}">Home Internet</a></li>
+                <li><a href="{% url 'corporate-internet' %}">Corporate</a></li>
+                <li><a href="{% url 'sme-internet' %}">SME</a></li>
+                <li><a href="{% url 'cloud-pabx' %}">CLOUD PABX</a></li>
+                <li><a href="#">Coverage Area</a></li>
+                <li><a href="amberitipphone/index.html">IP Phone</a></li>
+                <li><a href="{% url 'support' %}">Support</a></li>
+                <li><a href="{% url 'bill-pay' %}">Bill Pay</a></li>
+                <li><a href="{% url 'about' %}">About</a></li>
+                <!-- <li><a href="special-offer.html">Offer</a></li> -->
+                <li><a href="{% url 'contact' %}">Contact</a></li>
+                <!-- <li class="d-phone"><a href="AmberIT.pdf" target="_blank">BTRC Approved Tariff</a></li>
+                <li class="d-phone"><a href="http://blog.amberit.com.bd/">Blog</a></li> -->
+            </ul>
+        </div>
+    </nav>
+
+<!-- Meta Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    '../connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1489790914887414');
+    fbq('track', 'PageView');
+  </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="../www.facebook.com/tre311?id=1489790914887414&amp;ev=PageView&amp;noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+</header>
+<!-- Navbar END -->

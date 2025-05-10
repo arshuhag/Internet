@@ -1,0 +1,332 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+<!-- Page Title START -->
+<div class="page-title-section" style="background-image: url('{% static 'images/header-img/bill-pay.png' %}');">
+    <div class="container">
+        <h1 class="text-danger">Bill Pay</h1>
+        <!--<ul>
+            <li><a href="index.php" class="text-dark">Home</a></li>
+            <li><span class="text-dark">Bill Pay</span></li>
+        </ul>-->
+    </div>
+</div>
+<!-- Page Title END -->
+
+
+<!-- Feature Boxes Start -->
+<div class="section-block mpt-30 mpb-30">
+    <div class="container">
+        <div class="row mb-30">
+            <div class="col-12 text-center" data-animate="fadeInUp" data-delay=".1">
+                <div class="pb-5 border-bottom text-center">
+                    <h4 class="">Payment via Online <br><a href="https://myswift.amberit.com.bd/" class="small text-danger">myswift.amberit.com.bd</a></h4>
+                    <span>
+                    <img src="{% static 'images/billing/Visacard.png' %}" alt="Visa Card">
+                    <img src="{% static 'images/billing/mastercard.png' %}" alt="Master Card">
+                </span>
+                    <p class="mb-0">Migration charge is TK. 1000.00 to migrate to new home internet package that is declared on 22nd February 2018.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-30">
+            <div class="col-12 text-center">
+                <div class="pb-5 border-bottom text-center">
+                    <h4 class="mt-2 d-none">Payment via <br>
+                        bKash App
+                    </h4>
+                    <div class="text-center">
+                        <img src="{% static 'images/billing/bKash-app.png' %}" alt="bKash App">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb-30">
+            <div class="col-12 text-center">
+                <div class="pb-5 border-bottom text-center">
+                    <h4 class="mt-2">Payment via <br><img src="{% static 'images/billing/bKash.png' %}" alt="bKash"></h4>
+                    <div class="row justify-content-center">
+                        <div class="col-sm-3 d-flex" data-animate="fadeInUp" data-delay=".05">
+                            <div class="card mb-3 w-100">
+                                <div class="card-header bg-white">Step - 1</div>
+                                <div class="card-body">
+                                    <span class="card-text d-block">bKash</span>
+                                    <span class="card-text d-block">1.Send Money</span>
+                                    <span class="card-text d-block">2.Send money to Non-bKash User</span>
+                                    <span class="card-text d-block"> 3.Mobile Recharge </span>
+                                    <span class="card-text d-block"> 4.Payment </span>
+                                    <span class="card-text d-block"> 5.Cash Out </span>
+                                    <span class="card-text d-block bg-danger text-white"> 6.Pay Bill </span>
+                                    <span class="card-text d-block"> 7.Microfinance </span>
+                                    <span class="card-text d-block"> 8.Download App </span>
+                                    <span class="card-text d-block"> 9.May bKash </span>
+                                    <span class="card-text d-block"> 10.Rest PIN </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 d-flex" data-animate="fadeInUp" data-delay=".1">
+                            <div class="card mb-3 w-100">
+                                <div class="card-header bg-white">Step - 2</div>
+                                <div class="card-body">
+                                    <span class="card-text d-block">Pay Bill</span>
+                                   <span class="card-text d-block">1.Electricity (Prepaid)</span>
+                                    <span class="card-text d-block">2.Electricity (Postpaid)</span>
+                                    <span class="card-text d-block"> 3.Gas </span>
+                                    <span class="card-text d-block"> 4.Water </span>
+                                    <span class="card-text d-block bg-danger text-white"> 5.Internet and Phone </span>
+                                    <span class="card-text d-block"> 6.TV </span>
+                                    <span class="card-text d-block"> 7.City Services </span>
+                                    <span class="card-text d-block"> 8.Education </span>
+                                    <span class="card-text d-block"> 9.Financial Services </span>
+                                    <span class="card-text d-block"> #NEXT </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 d-flex" data-animate="fadeInUp" data-delay=".2">
+                            <div class="card mb-3 w-100">
+                                <div class="card-header bg-white">Step - 3</div>
+                                <div class="card-body">
+                                    <span class="card-text d-block">Internet and Phone</span>
+                                    <span class="card-text d-block">1.BTCL</span>
+                                    <span class="card-text d-block">2.Link3</span>
+                                    <span class="card-text d-block bg-danger text-white">3.Amber IT</span>
+                                    <span class="card-text d-block"> 4.Carnival </span>
+                                    <span class="card-text d-block"> 5.Sam Online </span>
+                                    <span class="card-text d-block"> 6.Triangle </span>
+                                    <span class="card-text d-block"> 7.KS Network </span>
+                                    <span class="card-text d-block"> 8.Dot Internet </span>
+                                    <span class="card-text d-block"> 0.main Manu </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 d-flex" data-animate="fadeInUp" data-delay=".3">
+                            <div class="card mb-3 w-100">
+                                <div class="card-header bg-white">Step - 4</div>
+                                <div class="card-body">
+                                    <span class="card-text d-block"> Amber IT</span>
+                                    <span class="card-text d-block"> 1.Check Bill </span>
+                                    <span class="card-text d-block bg-danger text-white"> 2.Make Payment </span>
+                                    <span class="card-text d-block"> 0.Main Manu </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 d-flex" data-animate="fadeInUp" data-delay=".4">
+                            <div class="card mb-3 w-100">
+                                <div class="card-header bg-white">Step - 5</div>
+                                <div class="card-body">
+                                    <br>
+                                    <br>
+                                    <span class="card-text d-block"> Make Payment </span>
+                                    <span class="card-text d-block bg-danger text-white"> 1.Input Customer ID </span>
+                                    <span class="card-text d-block"> 2.Saved Accounts</span>
+                                    <span class="card-text d-block"> 0.Main Manu</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 d-flex" data-animate="fadeInUp" data-delay=".5">
+                            <div class="card mb-3 w-100">
+                                <div class="card-header bg-white">Step - 6</div>
+                                <div class="card-body">
+                                    <span class="card-text d-block bg-danger text-white"> Enter Customer ID </span>
+                                    <span class="card-text d-block">XXXXXX</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 d-flex" data-animate="fadeInUp" data-delay=".6">
+                            <div class="card mb-3 w-100">
+                                <div class="card-header bg-white">Step - 7</div>
+                                <div class="card-body">
+                                    <span class="card-text d-block">Enter Contact Number</span>
+                                    <span class="card-text d-block bg-danger text-white">01XXXXXXXXX</span>
+                                </div>
+                            </div>
+                        </div>
+                    
+
+                    <div class="col-sm-3 d-flex" data-animate="fadeInUp" data-delay=".6">
+                            <div class="card mb-3 w-100">
+                                <div class="card-header bg-white">Step - 8</div>
+                                <div class="card-body">
+                                    <span class="card-text d-block">Enter Amount</span>
+                                    <span class="card-text d-block bg-danger text-white">XXXX</span>
+                                </div>
+                            </div>
+                    </div>
+
+                    <div class="col-sm-3 d-flex" data-animate="fadeInUp" data-delay=".6">
+                            <div class="card mb-3 w-100">
+                                <div class="card-header bg-white">Step - 9</div>
+                                <div class="card-body">
+                                    <span class="card-text d-block">Bill Payment</span>
+                                    <span class="card-text d-block"> To: AmberIT </span>
+                                    <span class="card-text d-block"> Customer ID: XXXXXX </span>
+                                    <span class="card-text d-block"> Contact Number: 01xxxxxxxxx </span>
+                                    <span class="card-text d-block"> Amount: Tk xxxx </span>
+                                    <span class="card-text d-block"> Enter Menu PIN to Confirm: </span>
+                                    <span class="card-text d-block bg-danger text-white"> XXXX </span>
+                                    <span class="card-text d-block" style="font-weight: bold; text-align: right; color: #08AF19;">SEND</span>
+                                </div>
+                            </div>
+                    </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row mb-30">
+            <div class="col-12 text-center">
+                <div class="pb-5 border-bottom text-center">
+                    <h4 class="mt-2">Payment via Nagad App </h4>
+                    <div class="text-center">
+                        <img src="{% static 'images/billing/nagad-app.png' %}" alt="Nagad App">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb-30">
+            <div class="col-12 text-center">
+                <div class="pb-5 border-bottom text-center">
+                    <h4 class="mt-2">Payment via Rocket App </h4>
+                    <div class="text-center">
+                        <img src="{% static 'images/billing/rocket-app.png' %}" alt="Rocket App">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb-30">
+            <div class="col-12 text-center" data-animate="fadeInUp" data-delay=".1">
+                <div class="border-bottom">
+                    <img src="{% static 'images/billing/rocket.png' %}" alt="Rocket" style="max-width:100%" class="py-5">
+                </div>
+            </div>
+        </div>
+        <div class="row mb-30">
+            <div class="col-12 text-center" data-animate="fadeInUp" data-delay=".1">
+                <div>
+                    <img src="{% static 'images/billing/sure_cash.png' %}" alt="Sure Cash" style="max-width:100%" class="py-5">
+                </div>
+            </div>
+        </div>
+        <div class="border p-4 mb-50">
+            <div class="text-center">
+                <h4 class="mb-30">Payment via <br><img src="{% static 'images/billing/ucb.png' %}" alt="UCB"></h4>
+            </div>
+            <div class="row">
+                <div class="col-sm-3 mb-4" data-animate="fadeInUp" data-delay=".1">
+                    <h6>Dhanmondi branch</h6>
+                    <p>
+                        Nahar Green Summit (1st Floor) <br>
+                        Plot # 305 (Old), 43 (New) <br>
+                        Road # 27 (Old), 16 (New) <br>
+                        Dhanmondi R/A, Dhaka
+                    </p>
+                </div>
+                <div class="col-sm-3 mb-4" data-animate="fadeInUp" data-delay=".2">
+                    <h6>Mohammadpur branch</h6>
+                    <p>
+                        14/21, Block -A, <br>
+                        Asad Avenue <br>
+                        Mohammadpur, Dhaka.
+                    </p>
+                </div>
+                <div class="col-sm-3 mb-4" data-animate="fadeInUp" data-delay=".3">
+                    <h6>Banani branch</h6>
+                    <p>
+                        harif Plaza (1st & 2nd Floor) <br>
+                        39, Kamal Ataturk Avenue <br> Banani
+                        P.S- Gulshan, Dhaka
+                    </p>
+                </div>
+                <div class="col-sm-3 mb-4" data-animate="fadeInUp" data-delay=".4">
+                    <h6>Bashundhara branch</h6>
+                    <p>
+                        House No. 186 (Ground & 1st Floor) <br>
+                        Block-B, Bashundhara Main Road <br>
+                        Bashundhara R/A, Dhaka
+                    </p>
+                </div>
+                <div class="col-sm-3 mb-4" data-animate="fadeInUp" data-delay=".5">
+                    <h6>GULSHAN BRANCH[AD]</h6>
+                    <p>
+                        CONCORD I.K. Tower (1st Floor), <br>
+                        Plot No. CEN (A)-2, North Avenue, <br>
+                        Gulshan-2, Dhaka-1212
+                    </p>
+                </div>
+                <div class="col-sm-3 mb-4" data-animate="fadeInUp" data-delay=".6">
+                    <h6>SONARGAON JANAPATH BRANCH</h6>
+                    <p>
+                        House No- 10, Sonargaon Janapath <br>
+                        Sector- 11, Ward No- 01 <br>
+                        Uttara Model Town, Thana- Uttara <br>
+                        Dhaka City Corporation, Dhaka.
+                    </p>
+                </div>
+                <div class="col-sm-3 mb-4" data-animate="fadeInUp" data-delay=".7">
+                    <h6>UTTARA BRANCH[AD]</h6>
+                    <p>
+                        Rajuk Cosmos Shopping Complex (1st Floor), <br>
+                        Plot # 71, Sector # 7 (Azampur) <br>
+                        Uttara C/A, Dhaka
+                    </p>
+                </div>
+                <div class="col-sm-3 mb-4" data-animate="fadeInUp" data-delay=".8">
+                    <h6>DILKUSHA BRANCH</h6>
+                    <p>
+                        Address:82, Motijheel C/A <br>
+                        Ward No- 32 <br>
+                        PS- Motijheel, Dhaka <br>
+                        Phone : +88-02-7115700
+                    </p>
+                </div>
+                <div class="col-sm-3 mb-4" data-animate="fadeInUp" data-delay=".9">
+                    <h6>MIRPUR ROAD BRANCH</h6>
+                    <p>
+                        Address: House# 12, Road# 5, <br>
+                        Ward No# 49 Mirpur Road, <br>
+                        Dhanmondi R/A, Dhaka. <br>
+                        Phone: +88-02-9671037, <br> Mobile : 01714-167396
+                    </p>
+                </div>
+                <div class="col-sm-3 mb-4" data-animate="fadeInUp" data-delay=".95">
+                    <h6>NIKUNJA BRANCH</h6>
+                    <p>
+                        House# 79/A, Airport Road, <br>
+                        Ward No# 17, <br>
+                        Khilkhet, Dhaka
+                    </p>
+                </div>
+                <div class="col-sm-3 mb-4" data-animate="fadeInUp" data-delay="1">
+                    <h6>Shantinagar Branch</h6>
+                    <p>
+                        “Madina Hights” (Ground & 1st Floor)
+                        32, New Circular Road,
+                        Siddeswari, Ramna, Ward # 53,
+                        Dhaka City Corporation, Dhaka
+                    </p>
+                </div>
+                <div class="col-sm-3 mb-4" data-animate="fadeInUp" data-delay="1.1">
+                    <h6>TEJGAON BRANCH</h6>
+                    <p>
+                        Rahman’s Regnum Centre <br>
+                        191/B, Tejgaon 1/A <br>
+                        Tejgaon Gulshan Link Road <br>
+                        Ward No- 37, Thana- Tejgaon <br>
+                        Dhaka City Corporation, Dhaka.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Feature Boxes End -->
+
+{% endblock %}
